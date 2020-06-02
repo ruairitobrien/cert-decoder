@@ -3,7 +3,10 @@ fn main() {
 }
 
 fn execute(args: Vec<String>) -> Result<(), ()> {
-    Err(())
+    if args.len() != 1 {
+        return Err(());
+    }
+    Ok(())
 }
 
 #[cfg(test)]
