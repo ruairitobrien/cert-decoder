@@ -1,0 +1,7 @@
+[package]
+name = "cert-decoder"
+version = "0.1.0"
+authors = ["Ruairi O Brien <ruairitobrien@gmail.com>"]
+edition = "2018"
+
+[dependencies]
